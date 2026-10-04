@@ -1,0 +1,177 @@
+/* Configuración general y paleta de colores chic */
+body {
+    background-color: #ffeef2;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    color: #4a4a4a;
+    margin: 0;
+    padding: 0;
+}
+
+/* Encabezado Principal */
+header {
+    background-color: #ffb6c1;
+    padding: 25px 20px;
+    text-align: center;
+    border-bottom: 4px solid #f8d7da;
+    box-shadow: 0 4px 10px rgba(216, 112, 147, 0.15);
+}
+
+h1 {
+    color: #8b0000;
+    margin: 0 0 5px 0;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.subtitle {
+    color: #a05252;
+    font-size: 14px;
+    margin: 0 0 15px 0;
+    font-weight: 500;
+}
+
+/* Menú de Navegación */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+nav a {
+    color: #d87093;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 15px;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #8b0000;
+    text-decoration: underline;
+}
+
+/* Estilos de Secciones y Contenedores (Recuadros Bonitos) */
+main {
+    max-width: 1050px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+section {
+    background-color: #ffffff;
+    margin-bottom: 25px;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 6px 20px rgba(216, 112, 147, 0.1);
+    border: 1px solid #fce4ec;
+}
+
+h2 {
+    color: #333333;
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #ffeef2;
+    padding-bottom: 8px;
+}
+
+.section-desc {
+    margin-bottom: 20px;
+    color: #666;
+}
+
+/* Contenedor de las tarjetas de perfiles (ajustado para 3 tarjetas) */
+.profiles-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/* Tarjetas individuales de perfiles */
+.profile-card {
+    background: #fff8fa;
+    border: 2px solid #ffccd5;
+    border-radius: 12px;
+    padding: 25px;
+    width: 300px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.profile-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(216, 112, 147, 0.2);
+}
+
+.card-icon {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.profile-card h3 {
+    color: #8b0000;
+    margin-top: 0;
+    font-size: 18px;
+}
+
+.profile-card p {
+    font-size: 14px;
+    color: #555;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+/* Botones de acción */
+.btn-primary, .btn-secondary, .btn-copaci {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 600;
+    transition: background 0.3s ease;
+}
+
+.btn-primary {
+    background-color: #d87093;
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #b05575;
+}
+
+.btn-secondary {
+    background-color: #8b0000;
+    color: white;
+}
+
+.btn-secondary:hover {
+    background-color: #5c0000;
+}
+
+.btn-copaci {
+    background-color: #c71585;
+    color: white;
+}
+
+.btn-copaci:hover {
+    background-color: #990066;
+}
+
+/* Pie de Página */
+footer {
+    background-color: #ffb6c1;
+    text-align: center;
+    padding: 15px;
+    color: #661a1a;
+    font-size: 13px;
+    font-weight: 500;
+    margin-top: 40px;
+    border-top: 2px solid #f8d7da;
+}
